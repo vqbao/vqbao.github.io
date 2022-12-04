@@ -1,0 +1,364 @@
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github
+$ git clone git@github.com:vqbao/vqbao.github.io.git
+Cloning into 'vqbao.github.io'...
+Enter passphrase for key '/c/Users/vqbao/.ssh/id_rsa':
+warning: You appear to have cloned an empty repository.
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github
+$ cd vqbao.github.io/
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ unzip vqbao.github.io.zip
+Archive:  vqbao.github.io.zip
+   creating: css/
+   creating: css/bootstrap/
+  inflating: css/bootstrap/bootstrap.min.css
+   creating: css/devicons/
+   creating: css/devicons/css/
+  inflating: css/devicons/css/devicons.css
+  inflating: css/devicons/css/devicons.min.css
+  inflating: css/devicons/css/devicons.scss
+   creating: css/devicons/fonts/
+  inflating: css/devicons/fonts/devicons.eot
+  inflating: css/devicons/fonts/devicons.svg
+  inflating: css/devicons/fonts/devicons.ttf
+  inflating: css/devicons/fonts/devicons.woff
+   creating: css/simple-line-icons/
+   creating: css/simple-line-icons/css/
+  inflating: css/simple-line-icons/css/simple-line-icons.css
+   creating: css/simple-line-icons/fonts/
+  inflating: css/simple-line-icons/fonts/Simple-Line-Icons.eot
+  inflating: css/simple-line-icons/fonts/Simple-Line-Icons.svg
+  inflating: css/simple-line-icons/fonts/Simple-Line-Icons.ttf
+ extracting: css/simple-line-icons/fonts/Simple-Line-Icons.woff
+ extracting: css/simple-line-icons/fonts/Simple-Line-Icons.woff2
+   creating: css/simple-line-icons/less/
+  inflating: css/simple-line-icons/less/simple-line-icons.less
+   creating: css/simple-line-icons/scss/
+  inflating: css/simple-line-icons/scss/simple-line-icons.scss
+  inflating: css/style.css
+   creating: font-awesome/
+   creating: font-awesome/css/
+  inflating: font-awesome/css/font-awesome.css
+  inflating: font-awesome/css/font-awesome.min.css
+   creating: font-awesome/fonts/
+  inflating: font-awesome/fonts/fontawesome-webfont.eot
+  inflating: font-awesome/fonts/fontawesome-webfont.svg
+  inflating: font-awesome/fonts/fontawesome-webfont.ttf
+  inflating: font-awesome/fonts/fontawesome-webfont.woff
+ extracting: font-awesome/fonts/fontawesome-webfont.woff2
+  inflating: font-awesome/fonts/FontAwesome.otf
+   creating: font-awesome/less/
+  inflating: font-awesome/less/animated.less
+  inflating: font-awesome/less/bordered-pulled.less
+  inflating: font-awesome/less/core.less
+  inflating: font-awesome/less/fixed-width.less
+  inflating: font-awesome/less/font-awesome.less
+  inflating: font-awesome/less/icons.less
+  inflating: font-awesome/less/larger.less
+  inflating: font-awesome/less/list.less
+  inflating: font-awesome/less/mixins.less
+  inflating: font-awesome/less/path.less
+  inflating: font-awesome/less/rotated-flipped.less
+  inflating: font-awesome/less/screen-reader.less
+  inflating: font-awesome/less/stacked.less
+  inflating: font-awesome/less/variables.less
+   creating: font-awesome/scss/
+  inflating: font-awesome/scss/font-awesome.scss
+  inflating: font-awesome/scss/_animated.scss
+  inflating: font-awesome/scss/_bordered-pulled.scss
+  inflating: font-awesome/scss/_core.scss
+  inflating: font-awesome/scss/_fixed-width.scss
+  inflating: font-awesome/scss/_icons.scss
+  inflating: font-awesome/scss/_larger.scss
+  inflating: font-awesome/scss/_list.scss
+  inflating: font-awesome/scss/_mixins.scss
+  inflating: font-awesome/scss/_path.scss
+  inflating: font-awesome/scss/_rotated-flipped.scss
+  inflating: font-awesome/scss/_screen-reader.scss
+  inflating: font-awesome/scss/_stacked.scss
+  inflating: font-awesome/scss/_variables.scss
+  inflating: gulpfile.js
+   creating: img/
+  inflating: img/avatar.jpg
+  inflating: img/bg-stats.jpg
+  inflating: img/favicon.ico
+  inflating: img/iconCSharp.png
+  inflating: img/logo-s.png
+  inflating: img/logo-white.png
+   creating: img/portfolio/
+  inflating: img/portfolio/p-1.jpg
+  inflating: img/portfolio/p-10.jpg
+  inflating: img/portfolio/p-11.jpg
+  inflating: img/portfolio/p-2.jpg
+  inflating: img/portfolio/p-3.jpg
+  inflating: img/portfolio/p-4.jpg
+  inflating: img/portfolio/p-5.jpg
+  inflating: img/portfolio/p-6.jpg
+  inflating: img/portfolio/p-7.jpg
+  inflating: img/portfolio/p-8.jpg
+  inflating: img/portfolio/p-9.jpg
+  inflating: img/profile-banner.jpg
+  inflating: index.html
+   creating: js/
+   creating: js/bootstrap/
+  inflating: js/bootstrap/bootstrap.bundle.min.js
+   creating: js/counter/
+  inflating: js/counter/jquery.counterup.min.js
+  inflating: js/counter/jquery.waypoints.min.js
+  inflating: js/custom.js
+   creating: js/jquery/
+   creating: js/jquery-easing/
+  inflating: js/jquery-easing/jquery.easing.compatibility.js
+  inflating: js/jquery-easing/jquery.easing.js
+  inflating: js/jquery-easing/jquery.easing.min.js
+  inflating: js/jquery/jquery.js
+  inflating: js/jquery/jquery.min.js
+  inflating: README.md
+   creating: scss/
+  inflating: scss/resume.scss
+  inflating: scss/_bootstrap-overrides.scss
+  inflating: scss/_global.scss
+  inflating: scss/_mixins.scss
+  inflating: scss/_nav.scss
+  inflating: scss/_resume-item.scss
+  inflating: scss/_variables.scss
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ rm vqbao.github.io.zip
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/bootstrap/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/devicons/css/devicons.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/devicons/css/devicons.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/devicons/css/devicons.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/devicons/fonts/devicons.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/simple-line-icons/css/simple-line-icons.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/simple-line-icons/fonts/Simple-Line-Icons.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/simple-line-icons/less/simple-line-icons.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/simple-line-icons/scss/simple-line-icons.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/css/font-awesome.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/css/font-awesome.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/fonts/fontawesome-webfont.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/animated.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/bordered-pulled.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/core.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/fixed-width.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/font-awesome.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/icons.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/larger.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/list.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/mixins.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/path.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/rotated-flipped.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/screen-reader.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/stacked.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/less/variables.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_animated.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_bordered-pulled.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_core.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_fixed-width.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_icons.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_larger.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_list.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_mixins.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_path.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_rotated-flipped.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_screen-reader.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_stacked.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/_variables.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in font-awesome/scss/font-awesome.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in gulpfile.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/bootstrap/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/counter/jquery.waypoints.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/custom.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery-easing/jquery.easing.compatibility.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery-easing/jquery.easing.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery/jquery.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/jquery/jquery.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/_bootstrap-overrides.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/_global.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/_mixins.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/_nav.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/_resume-item.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/_variables.scss.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scss/resume.scss.
+The file will have its original line endings in your working directory.
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git commit -m "First commit"
+[master (root-commit) 08e2706] First commit
+ 90 files changed, 29331 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 css/bootstrap/bootstrap.min.css
+ create mode 100644 css/devicons/css/devicons.css
+ create mode 100644 css/devicons/css/devicons.min.css
+ create mode 100644 css/devicons/css/devicons.scss
+ create mode 100644 css/devicons/fonts/devicons.eot
+ create mode 100644 css/devicons/fonts/devicons.svg
+ create mode 100644 css/devicons/fonts/devicons.ttf
+ create mode 100644 css/devicons/fonts/devicons.woff
+ create mode 100644 css/simple-line-icons/css/simple-line-icons.css
+ create mode 100644 css/simple-line-icons/fonts/Simple-Line-Icons.eot
+ create mode 100644 css/simple-line-icons/fonts/Simple-Line-Icons.svg
+ create mode 100644 css/simple-line-icons/fonts/Simple-Line-Icons.ttf
+ create mode 100644 css/simple-line-icons/fonts/Simple-Line-Icons.woff
+ create mode 100644 css/simple-line-icons/fonts/Simple-Line-Icons.woff2
+ create mode 100644 css/simple-line-icons/less/simple-line-icons.less
+ create mode 100644 css/simple-line-icons/scss/simple-line-icons.scss
+ create mode 100644 css/style.css
+ create mode 100644 font-awesome/css/font-awesome.css
+ create mode 100644 font-awesome/css/font-awesome.min.css
+ create mode 100644 font-awesome/fonts/FontAwesome.otf
+ create mode 100644 font-awesome/fonts/fontawesome-webfont.eot
+ create mode 100644 font-awesome/fonts/fontawesome-webfont.svg
+ create mode 100644 font-awesome/fonts/fontawesome-webfont.ttf
+ create mode 100644 font-awesome/fonts/fontawesome-webfont.woff
+ create mode 100644 font-awesome/fonts/fontawesome-webfont.woff2
+ create mode 100644 font-awesome/less/animated.less
+ create mode 100644 font-awesome/less/bordered-pulled.less
+ create mode 100644 font-awesome/less/core.less
+ create mode 100644 font-awesome/less/fixed-width.less
+ create mode 100644 font-awesome/less/font-awesome.less
+ create mode 100644 font-awesome/less/icons.less
+ create mode 100644 font-awesome/less/larger.less
+ create mode 100644 font-awesome/less/list.less
+ create mode 100644 font-awesome/less/mixins.less
+ create mode 100644 font-awesome/less/path.less
+ create mode 100644 font-awesome/less/rotated-flipped.less
+ create mode 100644 font-awesome/less/screen-reader.less
+ create mode 100644 font-awesome/less/stacked.less
+ create mode 100644 font-awesome/less/variables.less
+ create mode 100644 font-awesome/scss/_animated.scss
+ create mode 100644 font-awesome/scss/_bordered-pulled.scss
+ create mode 100644 font-awesome/scss/_core.scss
+ create mode 100644 font-awesome/scss/_fixed-width.scss
+ create mode 100644 font-awesome/scss/_icons.scss
+ create mode 100644 font-awesome/scss/_larger.scss
+ create mode 100644 font-awesome/scss/_list.scss
+ create mode 100644 font-awesome/scss/_mixins.scss
+ create mode 100644 font-awesome/scss/_path.scss
+ create mode 100644 font-awesome/scss/_rotated-flipped.scss
+ create mode 100644 font-awesome/scss/_screen-reader.scss
+ create mode 100644 font-awesome/scss/_stacked.scss
+ create mode 100644 font-awesome/scss/_variables.scss
+ create mode 100644 font-awesome/scss/font-awesome.scss
+ create mode 100644 gulpfile.js
+ create mode 100644 img/avatar.jpg
+ create mode 100644 img/bg-stats.jpg
+ create mode 100644 img/favicon.ico
+ create mode 100644 img/iconCSharp.png
+ create mode 100644 img/logo-s.png
+ create mode 100644 img/logo-white.png
+ create mode 100644 img/portfolio/p-1.jpg
+ create mode 100644 img/portfolio/p-10.jpg
+ create mode 100644 img/portfolio/p-11.jpg
+ create mode 100644 img/portfolio/p-2.jpg
+ create mode 100644 img/portfolio/p-3.jpg
+ create mode 100644 img/portfolio/p-4.jpg
+ create mode 100644 img/portfolio/p-5.jpg
+ create mode 100644 img/portfolio/p-6.jpg
+ create mode 100644 img/portfolio/p-7.jpg
+ create mode 100644 img/portfolio/p-8.jpg
+ create mode 100644 img/portfolio/p-9.jpg
+ create mode 100644 img/profile-banner.jpg
+ create mode 100644 index.html
+ create mode 100644 js/bootstrap/bootstrap.bundle.min.js
+ create mode 100644 js/counter/jquery.counterup.min.js
+ create mode 100644 js/counter/jquery.waypoints.min.js
+ create mode 100644 js/custom.js
+ create mode 100644 js/jquery-easing/jquery.easing.compatibility.js
+ create mode 100644 js/jquery-easing/jquery.easing.js
+ create mode 100644 js/jquery-easing/jquery.easing.min.js
+ create mode 100644 js/jquery/jquery.js
+ create mode 100644 js/jquery/jquery.min.js
+ create mode 100644 scss/_bootstrap-overrides.scss
+ create mode 100644 scss/_global.scss
+ create mode 100644 scss/_mixins.scss
+ create mode 100644 scss/_nav.scss
+ create mode 100644 scss/_resume-item.scss
+ create mode 100644 scss/_variables.scss
+ create mode 100644 scss/resume.scss
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git push orgin
+fatal: 'orgin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git push origin
+Enter passphrase for key '/c/Users/vqbao/.ssh/id_rsa':
+Counting objects: 115, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (115/115), 7.51 MiB | 1.72 MiB/s, done.
+Total 115 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:vqbao/vqbao.github.io.git
+ * [new branch]      master -> master
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
