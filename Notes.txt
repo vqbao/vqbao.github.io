@@ -362,3 +362,46 @@ To github.com:vqbao/vqbao.github.io.git
  * [new branch]      master -> master
 
 vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git commit "Update avatar"
+error: pathspec 'Update avatar' did not match any file(s) known to git.
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git commit -m "Update avatar"
+[master 1e192a2] Update avatar
+ 2 files changed, 451 insertions(+), 87 deletions(-)
+ create mode 100644 Notes.txt
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
+$ git push origin
+Enter passphrase for key '/c/Users/vqbao/.ssh/id_rsa':
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.83 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:vqbao/vqbao.github.io.git
+   08e2706..1e192a2  master -> master
+
+vqbao@DESKTOP-ATJCG3I MINGW64 /d/Github/vqbao.github.io (master)
